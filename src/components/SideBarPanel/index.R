@@ -5,7 +5,7 @@ sideBarPanel <- function(id) {
     class = "sideBarPanel",
     img(src = "./assets/logos/logoWithTagline.svg", class = "logo"),
     tags$div(
-      calss = "navigation",
+      class = "navigation",
       sideBarPanelItem(id = ns("home")), 
       sideBarPanelItem(id = ns("dataImport")), 
       sideBarPanelItem(id = ns("type")), 

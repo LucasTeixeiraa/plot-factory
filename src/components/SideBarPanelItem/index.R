@@ -15,12 +15,12 @@ sideBarPanelItemServer <- function(id, label, ref) {
           tags$a(
             label, 
             id = session$ns("button"), 
-            calss = if(is_page(ref)) "action-button active" else "action-button"
+            class = if(is_page(ref)) "action-button active" else "action-button"
           )
         )
       })
       
-      onclick("button", if(!is_page(ref)) change_page(ref))
+      #onclick("button", if(!is_page(ref)) change_page(ref))
     }
   )
 }
